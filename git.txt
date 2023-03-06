@@ -1,0 +1,28 @@
+git push -u -f backend master
+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
+
+--Latest key for github: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
+
+git remote set-url origin https://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@github.com/BadriNarayanan123/myfirstrepo.git
+
+git config --global user.name > "BadriNarayanan123"
+
+git branch -M main
+git remote add origin https://github.com/BadriNarayanan123/Backend-Project.git
+git push -u origin main	
+
+git remote add origin https://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@github.com/BadriNarayanan123/myfirstrepo.git
+
+…or create a new repository on the command line
+echo "# Backend-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/BadriNarayanan123/Backend-Project.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/BadriNarayanan123/Backend-Project.git
+git branch -M main
+git push -u origin main
