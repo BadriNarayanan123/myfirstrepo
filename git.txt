@@ -26,3 +26,63 @@ git push -u origin main
 git remote add origin https://github.com/BadriNarayanan123/Backend-Project.git
 git branch -M main
 git push -u origin main
+
+
+
+---Git Commands
+
+git —version (To check version)
+
+git init ( initialise empty git repository)
+
+git config —global user.name “Badri”
+
+git config —global user.email badri@gmail.com
+
+(To config the editor used by git)
+
+git config —global core.editor “code —wait”
+
+git add . (Adds entire directory)
+
+git add file1 file2 ( adds file to staging area)
+
+git ls-files (lists files in staging area)
+
+git status (status of the staging area)
+
+Rm filename ( removes the file unix command)
+
+git rm filename.txt ( removes file from directory and staging area)
+
+git mv file1.txt main.js (renaming files and deleting the old file).
+
+git commit -m “message” (To commit the changes to the repository)
+
+git rm —cached index.html (remove file from staging area).
+
+git add *.html (Adds all html files)
+
+git commit -am “message” (To commit all modified files to the repository).
+
+Touch filename.extension (Creates a new file in the directory).
+
+—How to create a branch
+
+git branch “branch name”
+
+—Switch Branch
+
+git checkout “branch name”
+
+—Merge Branch
+
+git merge “branch name”
+
+—List remote repositories
+
+git remote
+
+—Clone Repository
+
+git clone https://github.com/BadriNarayanan123/myfirstrepo.git
